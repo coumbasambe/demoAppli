@@ -1,0 +1,60 @@
+body {
+    background-color: #ffe6f2; /* Rose clair */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Noir */
+}
+
+h1 {
+    text-align: center;
+    color: #ff4da6; /* Rose vif */
+    margin-top: 20px;
+}
+
+fieldset {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    background-color: #fff; /* Blanc */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-weight: bold;
+    color: #ff4da6; /* Rose vif */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ff4da6; /* Rose vif */
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 2px solid #ff4da6; /* Rose vif */
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    background-color: #ff4da6; /* Rose vif */
+    color: #fff; /* Blanc */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #ff1a66; /* Rose plus foncé */
+}
+
+#message {
+    font-weight: bold;
+    color: #ff4da6; /* Rose vif */
+    margin-top: 15px;
+}

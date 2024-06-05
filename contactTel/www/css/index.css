@@ -1,0 +1,94 @@
+/* Styles pour la page principale */
+.page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .footer {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-list li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-list li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Styles pour le formulaire */
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"], form input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #45a049;
+}
